@@ -34,6 +34,19 @@ public class CalculatorTest {
 
 		assertEquals("3.0", textProvider.getDisplayText());
 	}
+	
+	@Test
+	public void testDivide() {
+		TestTextProvider textProvider = new TestTextProvider();
+		Calculator calculator = new Calculator(textProvider);
+
+		calculator.handleButtonClick("4");
+		calculator.handleButtonClick("/");
+		calculator.handleButtonClick("2");
+		calculator.handleButtonClick("=");
+
+		assertEquals("2.0", textProvider.getDisplayText());
+	}
 
 	@Test
 	public void testTwoTimesPlus() {
