@@ -16,6 +16,7 @@ import org.eclipse.example.calc.UnaryOperation;
 import org.eclipse.example.calc.internal.operations.Equals;
 import org.eclipse.example.calc.internal.operations.Minus;
 import org.eclipse.example.calc.internal.operations.Plus;
+import org.eclipse.example.calc.internal.operations.Power;
 import org.eclipse.example.calc.internal.operations.Square;
 
 public class Calculator {
@@ -39,6 +40,7 @@ public class Calculator {
 		new Equals();
 		new Minus();
 		new Plus();
+		new Power();
 		new Square();
 	}
 
