@@ -7,6 +7,7 @@
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  *******************************************************************************/
+//Edit for change the first commits
 package org.eclipse.example.calc.internal;
 
 import org.eclipse.example.calc.BinaryOperation;
@@ -16,6 +17,7 @@ import org.eclipse.example.calc.UnaryOperation;
 import org.eclipse.example.calc.internal.operations.Divide;
 import org.eclipse.example.calc.internal.operations.Equals;
 import org.eclipse.example.calc.internal.operations.Minus;
+import org.eclipse.example.calc.internal.operations.Multiply;
 import org.eclipse.example.calc.internal.operations.Plus;
 import org.eclipse.example.calc.internal.operations.Power;
 import org.eclipse.example.calc.internal.operations.Square;
@@ -43,6 +45,7 @@ public class Calculator {
 		new Plus();
 		new Divide();
 		new Power();
+		new Multiply();
 		new Square();
 	}
 

@@ -15,6 +15,7 @@ import static org.junit.Assert.fail;
 import org.eclipse.example.calc.internal.operations.Divide;
 import org.eclipse.example.calc.internal.operations.Equals;
 import org.eclipse.example.calc.internal.operations.Minus;
+import org.eclipse.example.calc.internal.operations.Multiply;
 import org.eclipse.example.calc.internal.operations.Plus;
 import org.eclipse.example.calc.internal.operations.Square;
 import org.junit.After;
@@ -29,6 +30,7 @@ public class OperationsTest {
 	public void setUp() throws Exception {
 		new Plus();
 		new Minus();
+		new Multiply();
 		new Equals();
 		new Divide();
 		square = new Square();
