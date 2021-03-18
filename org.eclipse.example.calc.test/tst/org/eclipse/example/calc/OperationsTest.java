@@ -15,6 +15,7 @@ import static org.junit.Assert.fail;
 import org.eclipse.example.calc.internal.operations.Equals;
 import org.eclipse.example.calc.internal.operations.Minus;
 import org.eclipse.example.calc.internal.operations.Plus;
+import org.eclipse.example.calc.internal.operations.Power;
 import org.eclipse.example.calc.internal.operations.Square;
 import org.junit.After;
 import org.junit.Before;
@@ -29,6 +30,7 @@ public class OperationsTest {
 		new Plus();
 		new Minus();
 		new Equals();
+		new Power();
 		square = new Square();
 	}
 
@@ -58,7 +60,7 @@ public class OperationsTest {
 
 	@Test
 	public void testSize() {
-		assertEquals(4, Operations.INSTANCE.size());
+		assertEquals(5, Operations.INSTANCE.size());
 	}
 
 	@Test
