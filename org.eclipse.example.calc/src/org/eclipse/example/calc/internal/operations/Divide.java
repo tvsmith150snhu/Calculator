@@ -17,7 +17,13 @@ public class Divide extends AbstractOperation implements BinaryOperation {
 
 	@Override
 	public float perform(float arg1, float arg2) {
+		if (arg2 == 0) {
+			System.out.print("Error: Cannot divide by zero");
+			return arg2;
+		}
+		else {
 		return arg1 / arg2;
+		}
 	}
 
 	@Override
