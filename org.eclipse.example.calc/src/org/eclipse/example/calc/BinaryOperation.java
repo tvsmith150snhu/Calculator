@@ -10,7 +10,7 @@ package org.eclipse.example.calc;
 
 /**
  * Binary operation interface
- */
+ * @since1.0 */
 public interface BinaryOperation extends Operation {
 	/**
 	 * @param arg1 first parameter
