@@ -67,7 +67,7 @@ public class CalculatorUI implements TextProvider, SelectionListener {
 	private void setupGUI() {
 		shell.setText(Calculator.NAME);
 		GridLayout gridLayout = new GridLayout();
-		gridLayout.numColumns = 1;
+		gridLayout.numColumns = 2;
 		gridLayout.marginHeight = gridLayout.marginWidth = 0;
 		shell.setLayout(gridLayout);
 
