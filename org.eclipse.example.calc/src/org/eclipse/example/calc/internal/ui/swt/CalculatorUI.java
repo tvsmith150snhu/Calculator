@@ -6,6 +6,7 @@
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  *******************************************************************************/
+//adding comment for new commit///
 package org.eclipse.example.calc.internal.ui.swt;
 
 import org.eclipse.example.calc.Operations;
@@ -67,7 +68,7 @@ public class CalculatorUI implements TextProvider, SelectionListener {
 	private void setupGUI() {
 		shell.setText(Calculator.NAME);
 		GridLayout gridLayout = new GridLayout();
-		gridLayout.numColumns = 1;
+		gridLayout.numColumns = 2;
 		gridLayout.marginHeight = gridLayout.marginWidth = 0;
 		shell.setLayout(gridLayout);
 
